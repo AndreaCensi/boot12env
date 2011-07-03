@@ -1,0 +1,11 @@
+dir: .
+url: ssh://git@ac.repositoryhosting.com/ac/boot11env.git
+---
+dir: src/boot11
+url: git@github.com:AndreaCensi/bootstrapping-summer11.git
+---
+dir: src/dynamics
+url: git@github.com:AndreaCensi/dynamics.git
+---
+dir: src/geometry
+url: git@github.com:AndreaCensi/geometry.git
