@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+set -x
 config=environment.sh
 tag=B11
 
@@ -18,11 +20,16 @@ cat ${config}
 echo "Now creating virtual environment (press enter)"
 read
 echo Create a new virtual env for python
-#virtualenv --prompt=${tag} `pwd`/deploy
-virtualenv `pwd`/deploy
+virtualenv --prompt=${tag} `pwd`/deploy
+#virtualenv `pwd`/deploy
 echo source $\{${tag}_PREFIX\}/bin/activate >> ${config}
 source ${config}
 
+echo "Now installing a few python packages (press enter)"
+read
+
+pip install --upgrade ipython
+pip install --upgrade nose
 
 #echo "Install patience"
 #pip install -e "git+git@github.com:AndreaCensi/patience.git#egg=Patience"
