@@ -1,0 +1,2 @@
+
+cd json-c && cmake . -DCMAKE_INSTALL_PREFIX=$B11_PREFIX 
