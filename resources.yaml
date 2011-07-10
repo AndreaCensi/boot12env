@@ -1,34 +1,32 @@
 dir: .
-url: ssh://git@ac.repositoryhosting.com/ac/boot11env.git 
+url: bentobox.cds.caltech.edu:/home/repositories/boot11_env
 ---
-branch: andrea
-dir: src/boot11
-url: git@github.com:AndreaCensi/bootstrapping-summer11.git
----
-dir: src/bootstrapping_olympics
-url: git@github.com:AndreaCensi/boot_olympics.git
----
-branch: devel
 dir: src/contracts
-url: git@github.com:AndreaCensi/contracts
+url: git@github.com:AndreaCensi/contracts.git
 ---
 dir: src/geometry
 url: git@github.com:AndreaCensi/geometry.git
 ---
+dir: src/reprep
+url: git@github.com:AndreaCensi/reprep.git
+---
 dir: src/json-c
-url: git@github.com:AndreaCensi/json-c
+url: git@github.com:AndreaCensi/json-c.git
 ---
 dir: src/jsonstream
-url: git@github.com:AndreaCensi/jsonstream
----
-dir: src/pybv
-url: git@github.com:AndreaCensi/pybv.git
+url: git@github.com:AndreaCensi/jsonstream.git
 ---
 dir: src/raytracer
-url: git@github.com:AndreaCensi/raytracer
+url: git@github.com:AndreaCensi/raytracer.git
 ---
 dir: src/vehicles_dynamics
 url: git@github.com:AndreaCensi/dynamics.git
 ---
-dir: src/simple_vehicles
-url: git@github.com:AndreaCensi/simple_vehicles.git
+dir: src/vehicles
+url: git@github.com:AndreaCensi/vehicles.git
+---
+dir: src/bootstrapping_olympics
+url: git@github.com:AndreaCensi/boot_olympics.git
+---
+dir: src/boot11
+url: git@github.com:AndreaCensi/bootstrapping-summer11.git

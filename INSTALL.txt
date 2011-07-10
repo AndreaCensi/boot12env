@@ -1,2 +1,67 @@
+Bootstrapping simulation environment
+====================================
 
-cd json-c && cmake . -DCMAKE_INSTALL_PREFIX=$B11_PREFIX 
+
+Download
+--------
+
+There are lots of packages to install!
+
+Look in ``resources.yaml``. Install each repository, in order, 
+from the list, in the directory specified by the "src" field.
+
+For example, for the entry ::
+
+    dir: src/vehicles
+    url: git@github.com:AndreaCensi/vehicles.git
+
+do ::
+
+    $ mkdir src/
+    $ cd src
+    $ git clone git@github.com:AndreaCensi/vehicles.git vehicles
+
+
+Create environment (optional)
+-----------------------------
+
+This step creates a "virtual environment" so that the software
+is not installed in the main Python system directory.
+
+Do:
+
+    ./initialize_environment.sh
+    
+This sets up things and creates a ``environment.sh`` file.
+
+From now on, always do:
+
+    source environment.sh
+    
+to use this local virtual environment.
+
+
+Install
+--------
+
+Now, install the software and dependencies in the order listed 
+in ``resources.yaml``.
+
+
+For each package containing python sources (i.e., a ``setup.py``), do
+
+    $ python setup.py develop
+    $ nosetests -w src
+
+The last command runs some unit tests to make sure that everything is 
+installed properly.
+
+For each package containing C/C++ sources, do:
+
+    $ cmake . 
+    $ make
+    $ make install
+    
+    
+    
+    
