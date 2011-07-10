@@ -2,22 +2,19 @@ dir: .
 url: bentobox.cds.caltech.edu:/home/repositories/boot11_env
 ---
 dir: src/contracts
-url: git@github.com:AndreaCensi/contracts.git
+url: git://github.com/AndreaCensi/contracts.git
 ---
 dir: src/geometry
-url: git@github.com:AndreaCensi/geometry.git
+url: git://github.com/AndreaCensi/geometry.git
 ---
 dir: src/reprep
-url: git@github.com:AndreaCensi/reprep.git
+url: git://github.com/AndreaCensi/reprep.git
 ---
 dir: src/json-c
-url: git@github.com:AndreaCensi/json-c.git
----
-dir: src/jsonstream
-url: git@github.com:AndreaCensi/jsonstream.git
+url: git://github.com/AndreaCensi/json-c.git
 ---
 dir: src/raytracer
-url: git@github.com:AndreaCensi/raytracer.git
+url: git://github.com/AndreaCensi/raytracer.git
 ---
 dir: src/vehicles_dynamics
 url: git@github.com:AndreaCensi/dynamics.git
