@@ -8,9 +8,9 @@
 <path>/b11/src/vehicles_dynamics/src</path>
 <path>/b11/src/geometry/src</path>
 <path>/b11/src/bootstrapping_olympics/src</path>
-<path>/b11/src/simple_vehicles/src</path>
 <path>/b11/src/reprep/src</path>
 <path>/b11/src/contracts/src</path>
+<path>/b11/src/vehicles/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
 <path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
