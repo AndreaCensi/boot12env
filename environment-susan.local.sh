@@ -1,6 +1,6 @@
 
-echo "Are you sure you want usrpyplus?"
-source ~/scm/usrpyplus.sh 
+#echo "Are you sure you want usrpyplus?"
+#source ~/scm/usrpyplus.sh 
 
 
 alias boot_gui_osx='/usr/bin/pythonw =boot_gui'
