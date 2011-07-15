@@ -28,3 +28,6 @@ url: git@github.com:AndreaCensi/boot_olympics.git
 ---
 dir: src/boot11
 url: git@github.com:AndreaCensi/bootstrapping-summer11.git
+---
+dir: src/boot_agents
+url: git@github.com:AndreaCensi/boot_agents.git

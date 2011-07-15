@@ -2,7 +2,7 @@
 <?eclipse-pydev version="1.0"?>
 
 <pydev_project>
-<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">usrpyplus</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">ports-py26</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/b11/src/vehicles_dynamics/src</path>
@@ -12,6 +12,7 @@
 <path>/b11/src/contracts/src</path>
 <path>/b11/src/vehicles/src</path>
 <path>/b11/src/boot11/code/magnus_experiments_package/src</path>
+<path>/b11/src/boot_agents/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
 <path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
