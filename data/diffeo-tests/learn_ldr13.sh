@@ -1,0 +1,1 @@
+boot_learn -l $LOGSM/logs-normalized_sensel_values_all_sensels  learn-log -a diffeo_agent_2d_dev -r LDR13 -p 300
