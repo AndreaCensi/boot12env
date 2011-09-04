@@ -2,6 +2,9 @@ dir: .
 url: bentobox.cds.caltech.edu:/home/repositories/boot11_env
 type: git
 ---
+dir: src/procgraph
+url: git://github.com/AndreaCensi/procgraph.git
+---
 dir: src/contracts
 url: git://github.com/AndreaCensi/contracts.git
 ---
