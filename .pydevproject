@@ -14,7 +14,6 @@
 <path>/b11/src/boot11/code/magnus_experiments_package/src</path>
 <path>/b11/src/boot_agents/src</path>
 <path>/b11/src/procgraph/src</path>
-<path>/b11/src/fly_behaviors/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
 <path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
