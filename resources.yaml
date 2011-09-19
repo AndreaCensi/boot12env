@@ -26,6 +26,9 @@ url: git@github.com:AndreaCensi/dynamics.git
 dir: src/vehicles
 url: git@github.com:AndreaCensi/vehicles.git
 ---
+dir: src/conf_tools
+url: git://github.com/AndreaCensi/conf_tools.git
+---
 dir: src/bootstrapping_olympics
 url: git@github.com:AndreaCensi/boot_olympics.git
 ---
