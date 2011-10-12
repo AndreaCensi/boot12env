@@ -5,6 +5,9 @@ type: git
 dir: src/procgraph
 url: git://github.com/AndreaCensi/procgraph.git
 ---
+dir: src/compmake
+url: git://github.com/AndreaCensi/compmake.git
+---
 dir: src/contracts
 url: git://github.com/AndreaCensi/contracts.git
 ---
