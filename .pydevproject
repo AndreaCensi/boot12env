@@ -15,7 +15,8 @@
 <path>/b11/src/boot_agents/src</path>
 <path>/b11/src/procgraph/src</path>
 <path>/b11/src/conf_tools/src</path>
-<path>/b11/data/bo_app1/scripts</path>
+<path>/b11/data/bo_app1/src</path>
+<path>/b11/data/bo_hidden/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
 <path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
