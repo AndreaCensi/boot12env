@@ -2,3 +2,4 @@ src
 deploy
 environment.sh
 .settings
+compmake-storage
