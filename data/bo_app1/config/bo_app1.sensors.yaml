@@ -1,0 +1,11 @@
+- id: cam_f360_n180_s15
+  desc: "An omnidirectional camera with 180 sensels, 15 deg smooth"
+  code: 
+      - vehicles.sensors.PhotoreceptorsSmoothUniform
+      - num_sensels: 180
+        fov_deg:     360
+        spatial_sigma_deg: 7.5
+        noise: 
+            - vehicles.sensors.AdditiveGaussian
+            - std_dev: 0.01
+              

@@ -1,0 +1,7 @@
+- id: d_SE2_rb_v-cam360s15
+  desc: An omnidirectional robot with a 360deg camera.
+  id_dynamics: d_SE2_rb_v
+  sensors:
+      - id_sensor: cam_f360_n180_s15
+        pose: [0,0,0]
+  radius: 0.5
