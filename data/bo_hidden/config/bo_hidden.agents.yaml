@@ -24,3 +24,18 @@
       - boot_agents.BDSAgent
       - beta: 1
         change_fraction: 0.5
+
+
+- id: BGDSAgent_C1
+  desc: "BGDS agent"
+  code:
+      - boot_agents.BGDSAgent
+      - beta: 1
+
+
+- id: hidden
+  desc: Estimates hidden state
+  code:
+      - bo_hidden.HiddenAgent
+      - max_t: 10
+

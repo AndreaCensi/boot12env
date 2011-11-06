@@ -1,13 +1,14 @@
 from bootstrapping_olympics.interfaces import StreamSpec
 from contracts import contract
-from geometry import SE3, se3, SO2
+from geometry import SE2_from_SO2, SE3, se3, SO2, SE3_from_SE2
 from vehicles_dynamics import CircleVel, Dynamics, SE2Dynamics
 import numpy as np
-from contracts.interface import describe_value
-from geometry.poses import SE3_from_SE2
-from geometry.poses_embedding import SE2_from_SO2
+from geometry.poses import angle_from_SE2, SE2_from_translation_angle, \
+    SE2_from_SE3
 
 class Turret(Dynamics):
+    
+    last_turret_angle = 0.0
     
     @contract(max_linear_velocity='seq[2](>=0)',
               max_angular_velocity='>=0',)
@@ -32,9 +33,12 @@ class Turret(Dynamics):
     def pose2state(self, pose):
         ''' Returns the state that best approximates the given pose (in SE3).'''
         # random_angle = SO2.convert_to(SE3, SO2.sample_uniform()) # XXX
-        random_angle = SE3_from_SE2(SE2_from_SO2(SO2.sample_uniform())) 
+#        random_angle = SE3_from_SE2(SE2_from_SO2(SO2.sample_uniform()))
+        angle = Turret.last_turret_angle 
+        turret_pose = SE3_from_SE2(SE2_from_translation_angle([0, 0], angle))
+        print('Starting at %s deg ' % np.rad2deg(angle))
         return (self.body.pose2state(pose),
-                self.turret.pose2state(random_angle))
+                self.turret.pose2state(turret_pose))
     
     @contract(commands='array[4]')
     def _integrate(self, state, commands, dt):
@@ -45,6 +49,11 @@ class Turret(Dynamics):
         state1b = self.body.integrate(state1, cmd1, dt)
         state2b = self.turret.integrate(state2, cmd2, dt)
         stateb = state1b, state2b
+        
+        # Save angle
+        q, _ = self.turret.joint_state(state2b)
+        Turret.last_turret_angle = angle_from_SE2(SE2_from_SE3(q))
+        print('angle: %s deg ' % np.rad2deg(Turret.last_turret_angle)) 
         #print('new state:\n%s' % self.print_state(stateb))
         return stateb
         
