@@ -7,7 +7,8 @@ from vehicles  import VehiclesConfig
 from os.path import dirname
 import os
 
-robots = ['r_cam360', 'r_rf360', 'r_cam360s15', 'r_sf12']
+# robots = ['r_cam360', 'r_rf360', 'r_cam360s15', 'r_sf12', 'r_sf144r']
+robots = ['r_cam_A', 'r_rf_A', 'r_fs_A']
 agents = ['embed', 'BDSAgent_C1', 'EstStats']
 explorer = 'expswitch_t1'
 
