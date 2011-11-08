@@ -30,7 +30,8 @@ read
 
 pip install --upgrade ipython
 pip install --upgrade nose
-
+pip install --upgrade rudolf # nose colored output
+pip install --upgrade nose-progressive
 #echo "Install patience"
 #pip install -e "git+git@github.com:AndreaCensi/patience.git#egg=Patience"
 
