@@ -1,5 +1,5 @@
 - id: bo_app1a
-  desc: simple servoing example
+  desc: 'Simple example without nuisances.'
   code:
   - bootstrapping_olympics.programs.manager.experiments_utils.experiment_explore_learn_compmake
   - robots: [r_cam_A, r_rf_A, r_fs_A]
@@ -10,6 +10,7 @@
     num_ep_expl_v: 5
     num_ep_serv: 10
     num_ep_serv_v: 5
+    servo_max_episode_len: 10
 
 - id: bo_app1b
   desc: ""
@@ -21,21 +22,10 @@
     agents: [embed, BDSAgent_C1, EstStats]
     explorer: expswitch_t1
     episode_len: 30
-    num_ep_expl: 10
-    num_ep_expl_v: 4
-    num_ep_serv: 10
+    num_ep_expl: 300
+    num_ep_expl_v: 5
+    num_ep_serv: 100
     num_ep_serv_v: 5
+    servo_max_episode_len: 10
 
-- id: servo_test
-  desc: ""
-  code:
-  - bootstrapping_olympics.programs.manager.experiments_utils.experiment_explore_learn_compmake
-  - robots: [ r_rf_A_n1 ]
-    agents: [embed, BDSAgent_C1, EstStats]
-    explorer: expswitch_t1
-    episode_len: 30
-    num_ep_expl: 10
-    num_ep_expl_v: 4
-    num_ep_serv: 10
-    num_ep_serv_v: 5
 
