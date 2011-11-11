@@ -16,7 +16,7 @@
   desc: "Test of BGDS agent"
   code:
   - bootstrapping_olympics.programs.manager.experiments_utils.experiment_explore_learn_compmake
-  - robots: [r_cam_A, r_rf_A]
+  - robots: [r_cam_A, r_rf_A, r_fs_B]
     agents: [BGDSAgent_C1]
     explorer: expswitch_t1
     episode_len: 30
@@ -31,7 +31,7 @@
   desc: "Test of Embed agent; same robot with different nuisances."
   code:
   - bootstrapping_olympics.programs.manager.experiments_utils.experiment_explore_learn_compmake
-  - robots: [r_cam_A, r_cam_A_n1, r_cam_A_n2]
+  - robots: [r_cam_A, r_rf_A, r_cam_A_n1, r_cam_A_n2]
     agents: [embed]
     explorer: expswitch_t1
     episode_len: 30

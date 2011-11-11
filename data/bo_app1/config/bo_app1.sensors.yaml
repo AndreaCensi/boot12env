@@ -9,6 +9,17 @@
         - vehicles.sensors.AdditiveGaussian
         - std_dev: 0.05
 
+- id: s_fs_B
+  desc: "Uniform disposition"
+  code: 
+    - vehicles.sensors.FieldSamplerUniform
+    - sides: [0.45,0.45]
+      shape: [12,12]
+      normalize: True
+      noise: 
+        - vehicles.sensors.AdditiveGaussian
+        - std_dev: 0.05
+
 - id: s_cam_A
   desc: "An omnidirectional camera with 180 sensels, 15 deg smooth"
   code: 

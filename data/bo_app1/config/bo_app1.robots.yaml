@@ -64,6 +64,16 @@
        id_vehicle: v_cam_A
        id_world: stochastic_box_10
 
+- id: r_fs_B
+  desc: "Field sampler with square disposition"
+  code:
+     - vehicles_boot.BOVehicleSimulation
+     - dt: 0.1
+       id_vehicle: v_fs_B
+       id_world: SBox2_10a
+
+
+
 
 - id: r_cam_A_n1
   desc: "Camera with permutation perturbation."
