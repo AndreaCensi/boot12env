@@ -5,3 +5,5 @@ environment.sh
 EPD-7.1
 compmake-storage
 compmake_storage
+*.transferred
+data/roslog_test
