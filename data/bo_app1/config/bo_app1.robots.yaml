@@ -62,7 +62,7 @@
      - vehicles_boot.BOVehicleSimulation
      - dt: 0.1
        id_vehicle: v_cam_A
-       id_world: stochastic_box_10
+       id_world: SBox3_10scale05
 
 - id: r_fs_B
   desc: "Field sampler with square disposition"
