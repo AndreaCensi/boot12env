@@ -35,6 +35,9 @@ url: git://github.com/AndreaCensi/conf_tools.git
 dir: src/bootstrapping_olympics
 url: git@github.com:AndreaCensi/boot_olympics.git
 ---
+dir: src/bvapps
+url: git@github.com:AndreaCensi/bvapps.git
+---
 dir: src/boot_olympics.wiki
 url: git@github.com:AndreaCensi/boot_olympics.wiki.git
 ---
