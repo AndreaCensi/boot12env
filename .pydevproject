@@ -18,8 +18,8 @@
 <path>/b11/data/bo_app1/src</path>
 <path>/b11/data/bo_hidden/src</path>
 <path>/b11/src/compmake</path>
-<path>/b11/src/latex_symbol_list/src</path>
 <path>/b11/src/bootstrapping_olympics/ros-packages/bootstrapping_adapter/nodes</path>
+<path>/b11/src/bvapps/bo_hidden/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
 <path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
