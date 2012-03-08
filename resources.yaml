@@ -16,12 +16,12 @@ url: git://github.com/AndreaCensi/geometry.git
 ---
 dir: src/reprep
 url: git://github.com/AndreaCensi/reprep.git
---- 
-dir: src/raytracer
-url: git://github.com/AndreaCensi/raytracer.git
----
-dir: src/vehicles_dynamics
-url: git@github.com:AndreaCensi/dynamics.git
+# --- 
+# dir: src/raytracer
+# url: git://github.com/AndreaCensi/raytracer.git
+# ---
+# dir: src/vehicles_dynamics
+# url: git@github.com:AndreaCensi/dynamics.git
 ---
 dir: src/vehicles
 url: git@github.com:AndreaCensi/vehicles.git
@@ -43,3 +43,7 @@ url: git@github.com:AndreaCensi/bootstrapping-summer11.git
 ---
 dir: src/boot_agents
 url: git@github.com:AndreaCensi/boot_agents.git
+
+---
+dir: src/acutils
+url: git://github.com/AndreaCensi/utils.git

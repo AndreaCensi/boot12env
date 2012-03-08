@@ -1,9 +1,9 @@
-src
+*egg-info
+*pyc
 deploy
 environment.sh
 .settings
-EPD-7.1
+EPD-*
 compmake-storage
-compmake_storage
 *.transferred
 data/roslog_test

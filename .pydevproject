@@ -5,7 +5,6 @@
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">ports-py26</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
-<path>/b11/src/vehicles_dynamics/src</path>
 <path>/b11/src/geometry/src</path>
 <path>/b11/src/bootstrapping_olympics/src</path>
 <path>/b11/src/reprep/src</path>
@@ -17,9 +16,10 @@
 <path>/b11/src/conf_tools/src</path>
 <path>/b11/data/bo_app1/src</path>
 <path>/b11/data/bo_hidden/src</path>
-<path>/b11/src/compmake</path>
 <path>/b11/src/bootstrapping_olympics/ros-packages/bootstrapping_adapter/nodes</path>
 <path>/b11/src/bvapps/bo_hidden/src</path>
+<path>/b11/src/acutils/src</path>
+<path>/b11/src/compmake/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
 <path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
