@@ -3,7 +3,11 @@
 deploy
 environment.sh
 .settings
+<<<<<<< HEAD
 EPD-*
 compmake-storage
 *.transferred
 data/roslog_test
+=======
+EPD*
+>>>>>>> other/master

@@ -34,11 +34,17 @@ Do:
     
 This sets up things and creates a ``environment.sh`` file.
 
-From now on, always do:
+From now on, always do: 
 
     source environment.sh
     
 to use this local virtual environment.
+
+
+
+For 
+
+  export PATH=$PWD/EPD-7.2/bin/:$PATH
 
 
 Install
