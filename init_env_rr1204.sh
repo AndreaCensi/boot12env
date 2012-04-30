@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-MYPYTHON=/opt/EPD-7.2-2/bin
-export PATH=$MYPYTHON:$PATH
+#MYPYTHON=/opt/EPD-7.2-2/bin
+#export PATH=$MYPYTHON:$PATH
 #echo Updating current python. First installing pip.
 #easy_install --upgrade pip
 
@@ -19,7 +19,7 @@ tag=B11
 # so other utilities can be accessed (like ptdump)
 echo \#\!/bin/bash > ${config}
 echo "# load this using   source ${config}" >> ${config}
-echo export PATH=${MYPYTHON}:\$PATH >> ${config}
+#echo export PATH=${MYPYTHON}:\$PATH >> ${config}
 echo export ${tag}_ROOT=`pwd` >>${config}
 echo export ${tag}_PREFIX=\${${tag}_ROOT}/deploy >>${config}
 echo export ${tag}_SRC=\${${tag}_ROOT}/src >>${config}
