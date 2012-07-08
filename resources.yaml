@@ -30,9 +30,9 @@ url: git://github.com/AndreaCensi/vehicles.git
 ---
 dir: src/bvapps
 url: git://github.com/AndreaCensi/bvapps.git
----
-dir: src/boot_olympics.wiki
-url: git://github.com/AndreaCensi/boot_olympics.wiki.git
+#---
+#dir: src/boot_olympics.wiki
+#url: git://github.com/AndreaCensi/boot_olympics.wiki.git
 ---
 dir: src/boot_agents
 url: git://github.com/AndreaCensi/boot_agents.git
