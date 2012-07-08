@@ -2,7 +2,7 @@
 <?eclipse-pydev version="1.0"?>
 
 <pydev_project>
-<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">ports-py26</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">port-py26</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/b11/src/geometry/src</path>
@@ -20,9 +20,10 @@
 <path>/b11/src/bvapps/bo_hidden/src</path>
 <path>/b11/src/acutils/src</path>
 <path>/b11/src/compmake/src</path>
+<path>/b11/src/boot_agents/src</path>
+<path>/b11/src/latex_gen/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
 <path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
-<path>/data/work/scm/latex_symbol_list/src</path>
 </pydev_pathproperty>
 </pydev_project>
