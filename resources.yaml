@@ -19,11 +19,8 @@ url: git://github.com/AndreaCensi/reprep.git
 dir: src/conf_tools
 url: git://github.com/AndreaCensi/conf_tools.git
 ---
-dir: src/bootstrapping_olympics
+dir: src/boot_olympics
 url: git://github.com/AndreaCensi/boot_olympics.git
----
-dir: src/vehicles
-url: git://github.com/AndreaCensi/vehicles.git
 ---
 dir: src/bvapps
 url: git://github.com/AndreaCensi/bvapps.git
@@ -34,12 +31,9 @@ url: git://github.com/AndreaCensi/bvapps.git
 dir: src/vehicles
 url: git://github.com/AndreaCensi/vehicles.git
 ---
-dir: src/bootstrapping_olympics
-url: git://github.com/AndreaCensi/boot_olympics.git
----
 dir: src/boot_agents
 url: git://github.com/AndreaCensi/boot_agents.git
 ---
-dir: src/acutils
+dir: src/utils
 url: git://github.com/AndreaCensi/utils.git
 

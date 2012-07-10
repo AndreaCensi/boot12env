@@ -28,6 +28,8 @@ Create environment (optional)
 This step creates a "virtual environment" so that the software
 is not installed in the main Python system directory.
 
+First install the package: python-virtualenv.
+
 Do:
 
     ./initialize_environment.sh
