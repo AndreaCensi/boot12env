@@ -1,6 +1,9 @@
 dir: .
 url: git://github.com/AndreaCensi/boot12env.git
 ---
+dir: src/latex_gen
+url: git://github.com/AndreaCensi/latex_gen.git
+---
 dir: src/contracts
 url: git://github.com/AndreaCensi/contracts.git
 ---
