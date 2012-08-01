@@ -28,4 +28,7 @@ docs-%:
 develop: $(foreach subdir, $(python-subdirs), develop-$(subdir))
 
 develop-%:
-	$(MAKE) -C $*
+	$(MAKE) -C $* develop
+
+check-same:
+	md5sum */pypackage.mk pypackage.mk

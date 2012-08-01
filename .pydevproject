@@ -2,27 +2,28 @@
 <?eclipse-pydev version="1.0"?>
 
 <pydev_project>
-<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">ports-py26</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">EPD-7.3</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
-<path>/boot12env/src/geometry/src</path>
-<path>/boot12env/src/bootstrapping_olympics/src</path>
-<path>/boot12env/src/reprep/src</path>
-<path>/boot12env/src/contracts/src</path>
-<path>/boot12env/src/vehicles/src</path>
-<path>/boot12env/src/boot11/code/magnus_experiments_package/src</path>
-<path>/boot12env/src/boot_agents/src</path>
-<path>/boot12env/src/procgraph/src</path>
-<path>/boot12env/src/conf_tools/src</path>
-<path>/boot12env/data/bo_app1/src</path>
-<path>/boot12env/data/bo_hidden/src</path>
-<path>/boot12env/src/bootstrapping_olympics/ros-packages/bootstrapping_adapter/nodes</path>
-<path>/boot12env/src/bvapps/bo_hidden/src</path>
-<path>/boot12env/src/acutils/src</path>
-<path>/boot12env/src/compmake/src</path>
+<path>/b11/src/geometry/src</path>
+<path>/b11/src/bootstrapping_olympics/src</path>
+<path>/b11/src/reprep/src</path>
+<path>/b11/src/contracts/src</path>
+<path>/b11/src/vehicles/src</path>
+<path>/b11/src/boot11/code/magnus_experiments_package/src</path>
+<path>/b11/src/boot_agents/src</path>
+<path>/b11/src/procgraph/src</path>
+<path>/b11/src/conf_tools/src</path>
+<path>/b11/data/bo_app1/src</path>
+<path>/b11/data/bo_hidden/src</path>
+<path>/b11/src/bootstrapping_olympics/ros-packages/bootstrapping_adapter/nodes</path>
+<path>/b11/src/bvapps/bo_hidden/src</path>
+<path>/b11/src/acutils/src</path>
+<path>/b11/src/compmake/src</path>
+<path>/b11/src/surf12adam/src</path>
+<path>/b11/src/latex_gen/src</path>
+<path>/b11/src/12-thesis-src/latex_symbol_list/src</path>
+<path>/b11/src/12-thesis-src/pysnip/src</path>
 </pydev_pathproperty>
-<pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
-<path>/data/work/scm/usrpyplus/lib/python2.6/site-packages</path>
-<path>/data/work/scm/latex_symbol_list/src</path>
-</pydev_pathproperty>
+
 </pydev_project>
