@@ -83,3 +83,6 @@ reprep_demos_out
 deploy*
 src/boot_olympics
 src/bootstrapping_olympics
+
+misc/surf:boot12env-lambda:boot12env-unison.sh
+add_ros.sh
