@@ -45,3 +45,6 @@ url: git://github.com/AndreaCensi/boot_olympics.wiki.git
 ---
 dir: src/surf12adam.wiki
 url: git://github.com/AndreaCensi/surf12adam.wiki.git
+---
+dir: src/quickapp
+url: git://github.com/AndreaCensi/quickapp.git
