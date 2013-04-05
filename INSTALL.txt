@@ -22,13 +22,16 @@ do ::
     $ git clone git@github.com:AndreaCensi/vehicles.git vehicles
 
 
+
 Create environment (optional)
 -----------------------------
 
 This step creates a "virtual environment" so that the software
 is not installed in the main Python system directory.
 
-First install the package: python-virtualenv.
+Ubuntu: First install the package: python-virtualenv.
+
+OS X:  sudo easy_install virtualenv
 
 Do:
 
@@ -44,17 +47,16 @@ to use this local virtual environment.
 
 
 
-For 
-
-  export PATH=$PWD/EPD-7.2/bin/:$PATH
-
-
 Install
 --------
 
-Now, install the software and dependencies in the order listed 
-in ``resources.yaml``.
+Setup packages using:
+    
+    make develop
 
+
+This install the software and dependencies in the order listed 
+in ``resources.yaml``.
 
 For each package containing python sources (i.e., a ``setup.py``), do
 
@@ -70,6 +72,6 @@ For each package containing C/C++ sources, do:
     $ make
     $ make install
     
-    
+
     
     
