@@ -25,6 +25,9 @@ url: git://github.com/AndreaCensi/conf_tools.git
 dir: src/boot_olympics
 url: git://github.com/AndreaCensi/boot_olympics.git
 ---
+dir: src/rosstream2boot
+url: git@github.com:AndreaCensi/rosstream2boot.git
+---
 dir: src/bvapps
 url: git://github.com/AndreaCensi/bvapps.git
 ---
