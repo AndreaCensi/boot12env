@@ -42,12 +42,12 @@ url: git://github.com/AndreaCensi/utils.git
 ---
 dir: src/surf12adam
 url: git://github.com/AndreaCensi/surf12adam.git
----
-dir: src/boot_olympics.wiki
-url: git://github.com/AndreaCensi/boot_olympics.wiki.git
----
-dir: src/surf12adam.wiki
-url: git://github.com/AndreaCensi/surf12adam.wiki.git
+# ---
+# dir: src/boot_olympics.wiki
+# url: git://github.com/AndreaCensi/boot_olympics.wiki.git
+# ---
+# dir: src/surf12adam.wiki
+# url: git://github.com/AndreaCensi/surf12adam.wiki.git
 ---
 dir: src/quickapp
 url: git://github.com/AndreaCensi/quickapp.git

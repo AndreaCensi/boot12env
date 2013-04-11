@@ -8,7 +8,7 @@ getpackage()
     git pull
     cd $spwd    
   else
-    echo "Missing package"
+    echo "Download new package"
     echo $2
     git clone $2 $3
   fi
@@ -43,9 +43,9 @@ getpackage bvapps git://github.com/AndreaCensi/bvapps.git
 getpackage vehicles git://github.com/AndreaCensi/vehicles.git
 getpackage boot_agents git://github.com/AndreaCensi/boot_agents.git
 getpackage utils git://github.com/AndreaCensi/utils.git
-getpackage surf12adam git://github.com/AndreaCensi/surf12adam.git suft12adam_wiki
+getpackage surf12adam git://github.com/AndreaCensi/surf12adam.git 
 getpackage boot_olympics.wiki git://github.com/AndreaCensi/boot_olympics.wiki.git
-getpackage surf12adam.wiki git://github.com/AndreaCensi/surf12adam.wiki.git
+getpackage surf12adam.wiki git://github.com/AndreaCensi/surf12adam.wiki.git surf12adam_wiki
 getpackage quickapp git://github.com/AndreaCensi/quickapp.git
 cd ..
 echo "Done getting packages"
@@ -65,6 +65,4 @@ pinstall vehicles
 pinstall boot_agents
 pinstall utils
 pinstall surf12adam
-pinstall boot_olympics.wiki
-pinstall surf12adam.wiki
 pinstall quickapp
