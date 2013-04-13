@@ -1,0 +1,19 @@
+# ROS install for boot12env
+#- git: {local-name: ., uri: 'git@github.com:AndreaCensi/boot12env.git'}
+- git: {local-name: src/compmake, uri: 'git@github.com:AndreaCensi/compmake.git'}
+- git: {local-name: src/latex_gen, uri: 'git@github.com:AndreaCensi/latex_gen.git'}
+- git: {local-name: src/contracts, uri: 'git@github.com:AndreaCensi/contracts.git'}
+- git: {local-name: src/geometry, uri: 'git@github.com:AndreaCensi/geometry.git'}
+- git: {local-name: src/reprep, uri: 'git@github.com:AndreaCensi/reprep.git'}
+- git: {local-name: src/conf_tools, uri: 'git@github.com:AndreaCensi/conf_tools.git'}
+- git: {local-name: src/boot_olympics, uri: 'git@github.com:AndreaCensi/boot_olympics.git'}
+- git: {local-name: src/rosstream2boot, uri: 'git@github.com:AndreaCensi/rosstream2boot.git'}
+- git: {local-name: src/vehicles, uri: 'git@github.com:AndreaCensi/vehicles.git'}
+- git: {local-name: src/boot_agents, uri: 'git@github.com:AndreaCensi/boot_agents.git'}
+- git: {local-name: src/vehicles, uri: 'git@github.com:AndreaCensi/vehicles.git'}
+- git: {local-name: src/utils, uri: 'git@github.com:AndreaCensi/utils.git'}
+- git: {local-name: src/quickapp, uri: 'git@github.com:AndreaCensi/quickapp.git'}
+- git: {local-name: src/utils, uri: 'git@github.com:AndreaCensi/utils.git'}
+- git: {local-name: src/surf12adam, uri: 'git@github.com:AndreaCensi/surf12adam.git'}
+- git: {local-name: src/quickapp, uri: 'git@github.com:AndreaCensi/quickapp.git'}
+- git: {local-name: src/procgraph, uri: 'git@github.com:AndreaCensi/procgraph.git'}

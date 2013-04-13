@@ -1,53 +1,56 @@
 dir: .
-url: git://github.com/AndreaCensi/boot12env.git
+url: git@github.com:AndreaCensi/boot12env.git
 ---
 dir: src/latex_gen
-url: git://github.com/AndreaCensi/latex_gen.git
+url: git@github.com:AndreaCensi/latex_gen.git
 ---
 dir: src/contracts
-url: git://github.com/AndreaCensi/contracts.git
+url: git@github.com:AndreaCensi/contracts.git
 ---
 dir: src/compmake
-url: git://github.com/AndreaCensi/compmake.git
+url: git@github.com:AndreaCensi/compmake.git
 ---
 dir: src/geometry
-url: git://github.com/AndreaCensi/geometry.git
+url: git@github.com:AndreaCensi/geometry.git
 ---
 dir: src/procgraph
-url: git://github.com/AndreaCensi/procgraph.git
+url: git@github.com:AndreaCensi/procgraph.git
 ---
 dir: src/reprep
-url: git://github.com/AndreaCensi/reprep.git
+url: git@github.com:AndreaCensi/reprep.git
 ---
 dir: src/conf_tools
-url: git://github.com/AndreaCensi/conf_tools.git
+url: git@github.com:AndreaCensi/conf_tools.git
 ---
 dir: src/boot_olympics
-url: git://github.com/AndreaCensi/boot_olympics.git
+url: git@github.com:AndreaCensi/boot_olympics.git
 ---
 dir: src/rosstream2boot
 url: git@github.com:AndreaCensi/rosstream2boot.git
 ---
 dir: src/bvapps
-url: git://github.com/AndreaCensi/bvapps.git
+url: git@github.com:AndreaCensi/bvapps.git
 ---
 dir: src/vehicles
-url: git://github.com/AndreaCensi/vehicles.git
+url: git@github.com:AndreaCensi/vehicles.git
 ---
 dir: src/boot_agents
-url: git://github.com/AndreaCensi/boot_agents.git
+url: git@github.com:AndreaCensi/boot_agents.git
 ---
 dir: src/utils
-url: git://github.com/AndreaCensi/utils.git
+url: git@github.com:AndreaCensi/utils.git
 ---
 dir: src/surf12adam
-url: git://github.com/AndreaCensi/surf12adam.git
+url: git@github.com:AndreaCensi/surf12adam.git
 # ---
 # dir: src/boot_olympics.wiki
-# url: git://github.com/AndreaCensi/boot_olympics.wiki.git
+# url: git@github.com:AndreaCensi/boot_olympics.wiki.git
 # ---
 # dir: src/surf12adam.wiki
-# url: git://github.com/AndreaCensi/surf12adam.wiki.git
+# url: git@github.com:AndreaCensi/surf12adam.wiki.git
 ---
 dir: src/quickapp
-url: git://github.com/AndreaCensi/quickapp.git
+url: git@github.com:AndreaCensi/quickapp.git
+---
+dir: src/boot_servo_demo
+url: git@github.com:AndreaCensi/boot_servo_demo.git

@@ -86,3 +86,4 @@ src/bootstrapping_olympics
 
 misc/surf:boot12env-lambda:boot12env-unison.sh
 add_ros.sh
+.rosinstall.bak
