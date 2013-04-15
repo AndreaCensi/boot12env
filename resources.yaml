@@ -54,3 +54,6 @@ url: git@github.com:AndreaCensi/quickapp.git
 ---
 dir: src/boot_servo_demo
 url: git@github.com:AndreaCensi/boot_servo_demo.git
+---
+dir: src/astatsa
+url: git@github.com:AndreaCensi/astatsa.git

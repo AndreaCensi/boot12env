@@ -17,3 +17,5 @@
 - git: {local-name: src/surf12adam, uri: 'git@github.com:AndreaCensi/surf12adam.git'}
 - git: {local-name: src/quickapp, uri: 'git@github.com:AndreaCensi/quickapp.git'}
 - git: {local-name: src/procgraph, uri: 'git@github.com:AndreaCensi/procgraph.git'}
+- git: {local-name: src/astatsa, uri: 'git@github.com:AndreaCensi/astatsa.git'}
+- git: {local-name: src/boot_servo_demo, uri: 'git@github.com:AndreaCensi/boot_servo_demo.git'}
