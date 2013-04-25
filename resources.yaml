@@ -28,6 +28,9 @@ url: git@github.com:AndreaCensi/boot_olympics.git
 dir: src/rosstream2boot
 url: git@github.com:AndreaCensi/rosstream2boot.git
 ---
+dir: src/ros_node_utils
+url: git@github.com:AndreaCensi/ros_node_utils.git
+---
 dir: src/bvapps
 url: git@github.com:AndreaCensi/bvapps.git
 ---
@@ -42,12 +45,6 @@ url: git@github.com:AndreaCensi/utils.git
 ---
 dir: src/surf12adam
 url: git@github.com:AndreaCensi/surf12adam.git
-# ---
-# dir: src/boot_olympics.wiki
-# url: git@github.com:AndreaCensi/boot_olympics.wiki.git
-# ---
-# dir: src/surf12adam.wiki
-# url: git@github.com:AndreaCensi/surf12adam.wiki.git
 ---
 dir: src/quickapp
 url: git@github.com:AndreaCensi/quickapp.git
@@ -57,3 +54,15 @@ url: git@github.com:AndreaCensi/boot_servo_demo.git
 ---
 dir: src/astatsa
 url: git@github.com:AndreaCensi/astatsa.git
+---
+dir: src/yc1304
+url: git@github.com:AndreaCensi/yc1304.git
+---
+dir: src/deps_display
+url: git@github.com:AndreaCensi/deps_display.git
+# ---
+# dir: src/boot_olympics.wiki
+# url: git@github.com:AndreaCensi/boot_olympics.wiki.git
+# ---
+# dir: src/surf12adam.wiki
+# url: git@github.com:AndreaCensi/surf12adam.wiki.git

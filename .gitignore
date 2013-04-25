@@ -88,3 +88,4 @@ misc/surf:boot12env-lambda:boot12env-unison.sh
 add_ros.sh
 .rosinstall.bak
 compmake_storage
+gvgen

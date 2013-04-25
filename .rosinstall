@@ -19,3 +19,5 @@
 - git: {local-name: src/procgraph, uri: 'git@github.com:AndreaCensi/procgraph.git'}
 - git: {local-name: src/astatsa, uri: 'git@github.com:AndreaCensi/astatsa.git'}
 - git: {local-name: src/boot_servo_demo, uri: 'git@github.com:AndreaCensi/boot_servo_demo.git'}
+- git: {local-name: src/yc1304, uri: 'git@github.com:AndreaCensi/yc1304.git'}
+- git: {local-name: src/ros_node_utils, uri: 'git@github.com:AndreaCensi/ros_node_utils.git'}
