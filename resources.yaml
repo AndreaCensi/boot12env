@@ -60,6 +60,13 @@ url: git@github.com:AndreaCensi/yc1304.git
 ---
 dir: src/deps_display
 url: git@github.com:AndreaCensi/deps_display.git
+---
+dir: src/caltech_youbot
+url: git@github.com:AndreaCensi/caltech_youbot.git
+---
+dir: src/vehicles_murraylab
+url: 192.168.1.1:/var/repo/vehicles_murraylab.git
+
 # ---
 # dir: src/boot_olympics.wiki
 # url: git@github.com:AndreaCensi/boot_olympics.wiki.git
