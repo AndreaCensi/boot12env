@@ -28,6 +28,7 @@ echo export PATH=\${${tag}_PREFIX}/bin:\$PATH >>${config}
 
 echo export PYTHONPATH=\${${tag}_PREFIX}/lib/python2.6/site-packages:\$PYTHONPATH >>${config}
 echo export PYTHONPATH=\${${tag}_PREFIX}/lib/python2.7/site-packages:\$PYTHONPATH >>${config}
+echo export DYLD_LIBRARY_PATH=\${DYLD_LIBRARY_PATH}:\${${tag}_PREFIX}/lib
 echo export PKG_CONFIG_PATH=\${${tag}_PREFIX}/lib/pkgconfig:\$PKG_CONFIG_PATH >>${config}
 source ${config}
 cat ${config}

@@ -89,3 +89,4 @@ add_ros.sh
 .rosinstall.bak
 compmake_storage
 gvgen
+out-*

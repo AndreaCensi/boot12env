@@ -66,6 +66,9 @@ url: git@github.com:AndreaCensi/caltech_youbot.git
 ---
 dir: src/vehicles_murraylab
 url: 192.168.1.1:/var/repo/vehicles_murraylab.git
+---
+dir: src/cob_common
+url: https://github.com/ipa320/cob_common.git
 
 # ---
 # dir: src/boot_olympics.wiki
