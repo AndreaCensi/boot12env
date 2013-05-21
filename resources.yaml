@@ -69,6 +69,12 @@ url: 192.168.1.1:/var/repo/vehicles_murraylab.git
 ---
 dir: src/cob_common
 url: https://github.com/ipa320/cob_common.git
+---
+dir: src/typsy
+url: git@github.com:AndreaCensi/typsy.git
+---
+dir: src/diffeo
+url: git@github.com:AndreaCensi/diffeo.git
 
 # ---
 # dir: src/boot_olympics.wiki

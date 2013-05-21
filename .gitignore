@@ -90,3 +90,8 @@ add_ros.sh
 compmake_storage
 gvgen
 out-*
+.compmake_history.txt
+./out/
+ws-*
+out
+boot12env.sublime-workspace

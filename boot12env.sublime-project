@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+        {"path": "/data/work/scm/boot12env/src/yc1304/src/yc1304/config/",
+        "name": "YC1304 config"},
+         {
+            "path": "/Users/andrea/scm/boot12env/src",
+            "folder_exclude_patterns": ["yc1304"]   
+        },
+		{
+			"path": "/Users/andrea/scm/boot12env",
+            "folder_exclude_patterns": ["src", "out-*", "out*", "deploy", "src-third", ".settings"]    
+	   	},
+        {
+            "path": "/Volumes/youbot/scm/caltech_youbot/ros/youbot_agent"
+        }
+	]
+    
+    
+}
