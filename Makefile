@@ -32,3 +32,7 @@ develop-%:
 
 check-same:
 	md5sum */pypackage.mk pypackage.mk
+
+comptests:
+	comptests --console src
+
