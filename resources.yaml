@@ -75,10 +75,19 @@ url: git@github.com:AndreaCensi/typsy.git
 ---
 dir: src/diffeo
 url: git@github.com:AndreaCensi/diffeo.git
+---
+dir: src/diffeo.wiki
+url: git@github.com:AndreaCensi/diffeo.wiki.git
+---
+dir: src/diffeoplan
+url: git@github.com:AndreaCensi/diffeoplan.git
+---
+dir: src/diffeoplan.wiki
+url: git@github.com:AndreaCensi/diffeoplan.wiki.git
+---
+dir: src/surf12adam.wiki
+url: git@github.com:AndreaCensi/surf12adam.wiki.git
 
 # ---
 # dir: src/boot_olympics.wiki
 # url: git@github.com:AndreaCensi/boot_olympics.wiki.git
-# ---
-# dir: src/surf12adam.wiki
-# url: git@github.com:AndreaCensi/surf12adam.wiki.git
