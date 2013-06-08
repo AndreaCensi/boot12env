@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		/*{
+			"name": "YC1304 config",
+			"path": "src/yc1304/src/yc1304/config"
+		},*/
+		{
+			"file_exclude_patterns":
+			[
+				"*.py", "*.pyc", "Makefile", "*ignore", "*rst", "*mk", "*gz",
+				"*txt", "*.md", "*.in", ".noseids", "*old", ".*", "*cfg", "*cmake",
+				"*stl", "*.h", "*.launch", "*dox", "*.xml", "*.sh", "*.zsh", "*.make",
+				"*bash", "*cache"
+			],
+			"folder_exclude_patterns":
+			[
+				"*egg*", "*wiki", "*docs*"
+			],
+			"path": "/Users/andrea/scm/boot12env/src"
+		}
+	]
+}

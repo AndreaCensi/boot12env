@@ -95,3 +95,8 @@ out-*
 ws-*
 out
 boot12env.sublime-workspace
+*png
+*dot
+deps.yaml
+boot12env-config.sublime-
+boot12env-config.sublime-workspace
