@@ -1,10 +1,14 @@
 {
 	"folders":
 	[
-		/*{
-			"name": "YC1304 config",
-			"path": "src/yc1304/src/yc1304/config"
-		},*/
+		{
+			"name": "ac80-datasets",
+			"path": "/Volumes/ac-a80/datasets",
+			"file_exclude_patterns":
+			[
+				"*.bag", "*.mp4", "*.mov", "*.timestamps"
+			]
+		},
 		{
 			"file_exclude_patterns":
 			[

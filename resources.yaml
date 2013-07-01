@@ -87,6 +87,9 @@ url: git@github.com:AndreaCensi/diffeoplan.wiki.git
 ---
 dir: src/surf12adam.wiki
 url: git@github.com:AndreaCensi/surf12adam.wiki.git
+--- 
+dir: src/pysnip
+url: git@github.com:AndreaCensi/pysnip.git
 
 # ---
 # dir: src/boot_olympics.wiki
