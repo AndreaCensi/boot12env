@@ -90,6 +90,9 @@ url: git@github.com:AndreaCensi/surf12adam.wiki.git
 --- 
 dir: src/pysnip
 url: git@github.com:AndreaCensi/pysnip.git
+--- 
+dir: src/rcl
+url: git@github.com:AndreaCensi/rcl.git
 
 # ---
 # dir: src/boot_olympics.wiki
