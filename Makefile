@@ -50,7 +50,9 @@ modules=reprep reprep_tables contracts astatsa typsy_configuration typsy_python 
 # minus: bo_hidden	diffeo_learener
 modulegraph:
 	#modulegraph -h -m  $(modules) > modulegraph.html
-	modulegraph -g -m  $(modules) 
+	#modulegraph -g -m  $(modules)  > deps.yaml
+	rm -f deps.yaml
+	modulegraph --deps deps.yaml -m  $(modules)
 	./src/deps_display/dep_plot.py
 	#> modulegraph.dot
 
