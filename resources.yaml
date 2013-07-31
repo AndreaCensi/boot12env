@@ -69,6 +69,7 @@ url: 192.168.1.1:/var/repo/vehicles_murraylab.git
 ---
 dir: src/cob_common
 url: https://github.com/ipa320/cob_common.git
+branch: electric_dev
 ---
 dir: src/typsy
 url: git@github.com:AndreaCensi/typsy.git

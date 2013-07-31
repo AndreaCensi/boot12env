@@ -5,7 +5,6 @@ all: develop
 # In order of dependencies
 
 
-
 python-subdirs=  contracts  compmake geometry procgraph reprep  conf_tools vehicles   boot_olympics quickapp surf12adam boot_agents bvapps rosstream2boot
 
 test-subdirs=  contracts  compmake geometry procgraph reprep vehicles  conf_tools boot_olympics quickapp surf12adam boot_agents bvapps rosstream2boot
