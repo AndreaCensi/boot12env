@@ -1,99 +1,93 @@
-dir: .
-url: git@github.com:AndreaCensi/boot12env.git
----
-dir: src/latex_gen
-url: git@github.com:AndreaCensi/latex_gen.git
----
-dir: src/contracts
-url: git@github.com:AndreaCensi/contracts.git
----
-dir: src/compmake
-url: git@github.com:AndreaCensi/compmake.git
----
-dir: src/geometry
-url: git@github.com:AndreaCensi/geometry.git
----
-dir: src/procgraph
-url: git@github.com:AndreaCensi/procgraph.git
----
-dir: src/reprep
-url: git@github.com:AndreaCensi/reprep.git
----
-dir: src/conf_tools
-url: git@github.com:AndreaCensi/conf_tools.git
----
-dir: src/boot_olympics
-url: git@github.com:AndreaCensi/boot_olympics.git
----
-dir: src/rosstream2boot
-url: git@github.com:AndreaCensi/rosstream2boot.git
----
-dir: src/ros_node_utils
-url: git@github.com:AndreaCensi/ros_node_utils.git
----
-dir: src/bvapps
-url: git@github.com:AndreaCensi/bvapps.git
----
-dir: src/vehicles
-url: git@github.com:AndreaCensi/vehicles.git
----
-dir: src/boot_agents
-url: git@github.com:AndreaCensi/boot_agents.git
----
-dir: src/utils
-url: git@github.com:AndreaCensi/utils.git
----
-dir: src/surf12adam
-url: git@github.com:AndreaCensi/surf12adam.git
----
-dir: src/quickapp
-url: git@github.com:AndreaCensi/quickapp.git
----
-dir: src/boot_servo_demo
-url: git@github.com:AndreaCensi/boot_servo_demo.git
----
-dir: src/astatsa
-url: git@github.com:AndreaCensi/astatsa.git
----
-dir: src/yc1304
-url: git@github.com:AndreaCensi/yc1304.git
----
-dir: src/deps_display
-url: git@github.com:AndreaCensi/deps_display.git
----
-dir: src/caltech_youbot
-url: git@github.com:AndreaCensi/caltech_youbot.git
----
-dir: src/vehicles_murraylab
-url: 192.168.1.1:/var/repo/vehicles_murraylab.git
----
-dir: src/cob_common
-url: https://github.com/ipa320/cob_common.git
-branch: electric_dev
----
-dir: src/typsy
-url: git@github.com:AndreaCensi/typsy.git
----
-dir: src/diffeo
-url: git@github.com:AndreaCensi/diffeo.git
----
-dir: src/diffeo.wiki
-url: git@github.com:AndreaCensi/diffeo.wiki.git
----
-dir: src/diffeoplan
-url: git@github.com:AndreaCensi/diffeoplan.git
----
-dir: src/diffeoplan.wiki
-url: git@github.com:AndreaCensi/diffeoplan.wiki.git
----
-dir: src/surf12adam.wiki
-url: git@github.com:AndreaCensi/surf12adam.wiki.git
---- 
-dir: src/pysnip
-url: git@github.com:AndreaCensi/pysnip.git
---- 
-dir: src/rcl
-url: git@github.com:AndreaCensi/rcl.git
+
+- dir: .
+  url: git@github.com:AndreaCensi/boot12env.git
+- dir: src/latex_gen
+  url: git@github.com:AndreaCensi/latex_gen.git
+- dir: src/contracts
+  url: git@github.com:AndreaCensi/contracts.git
+- dir: src/compmake
+  url: git@github.com:AndreaCensi/compmake.git
+- dir: src/geometry
+  url: git@github.com:AndreaCensi/geometry.git
+- dir: src/procgraph
+  url: git@github.com:AndreaCensi/procgraph.git
+- dir: src/reprep
+  url: git@github.com:AndreaCensi/reprep.git
+- dir: src/conf_tools
+  url: git@github.com:AndreaCensi/conf_tools.git
+- dir: src/boot_olympics
+  url: git@github.com:AndreaCensi/boot_olympics.git
+- dir: src/rosstream2boot
+  url: git@github.com:AndreaCensi/rosstream2boot.git
+- dir: src/ros_node_utils
+  url: git@github.com:AndreaCensi/ros_node_utils.git
+- dir: src/bvapps
+  url: git@github.com:AndreaCensi/bvapps.git
+- dir: src/vehicles
+  url: git@github.com:AndreaCensi/vehicles.git
+- dir: src/boot_agents
+  url: git@github.com:AndreaCensi/boot_agents.git
+- dir: src/utils
+  url: git@github.com:AndreaCensi/utils.git
+- dir: src/surf12adam
+  url: git@github.com:AndreaCensi/surf12adam.git
+- dir: src/quickapp
+  url: git@github.com:AndreaCensi/quickapp.git
+- dir: src/boot_servo_demo
+  url: git@github.com:AndreaCensi/boot_servo_demo.git
+- dir: src/astatsa
+  url: git@github.com:AndreaCensi/astatsa.git
+- dir: src/yc1304
+  url: git@github.com:AndreaCensi/yc1304.git
+- dir: src/deps_display
+  url: git@github.com:AndreaCensi/deps_display.git
+- dir: src/caltech_youbot
+  url: git@github.com:AndreaCensi/caltech_youbot.git
+- dir: src/vehicles_murraylab
+  url: 192.168.1.1:/var/repo/vehicles_murraylab.git
+- dir: src/cob_common
+  url: https://github.com/ipa320/cob_common.git
+  branch: electric_dev
+- dir: src/typsy
+  url: git@github.com:AndreaCensi/typsy.git
+- dir: src/diffeo
+  url: git@github.com:AndreaCensi/diffeo.git
+- dir: src/diffeo.wiki
+  url: git@github.com:AndreaCensi/diffeo.wiki.git
+- dir: src/diffeoplan
+  url: git@github.com:AndreaCensi/diffeoplan.git
+- dir: src/diffeoplan.wiki
+  url: git@github.com:AndreaCensi/diffeoplan.wiki.git
+- dir: src/surf12adam.wiki
+  url: git@github.com:AndreaCensi/surf12adam.wiki.git
+- dir: src/pysnip
+  url: git@github.com:AndreaCensi/pysnip.git
+- dir: src/rcl
+  url: git@github.com:AndreaCensi/rcl.git
+
+- dir: src/decent_logs
+  url: git@github.com:AndreaCensi/decent_logs.git
+  branch: master
+  
+- dir: src/dvs_loc
+  url: git@github.com:AndreaCensi/dvs_loc.git
+  branch: master
+
+- dir: src/rawlogs
+  url: git@github.com:AndreaCensi/rawlogs.git
+  branch: master
+
+- dir: datasets/dataset_turtle_dvs
+  url: git@github.com:AndreaCensi/dataset_turtle_dvs.git
+  branch: master
+
+- dir: src/comptests
+  url: git@github.com:AndreaCensi/comptests.git
+  branch: master
+
+- dir: src/system_cmd
+  url: git@github.com:AndreaCensi/system_cmd.git
+  branch: master
 
 # ---
 # dir: src/boot_olympics.wiki
