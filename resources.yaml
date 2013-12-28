@@ -89,6 +89,10 @@
   url: git@github.com:AndreaCensi/system_cmd.git
   branch: master
 
+- dir: src/hdflogs
+  url: git@github.com:AndreaCensi/hdflogs.git
+  branch: master
+
 # ---
 # dir: src/boot_olympics.wiki
 # url: git@github.com:AndreaCensi/boot_olympics.wiki.git
