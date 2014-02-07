@@ -69,9 +69,9 @@
   url: git@github.com:AndreaCensi/decent_logs.git
   branch: master
   
-- dir: src/dvs_loc
-  url: git@github.com:AndreaCensi/dvs_loc.git
-  branch: master
+# - dir: src/dvs_loc
+#   url: git@github.com:AndreaCensi/dvs_loc.git
+#   branch: master
 
 - dir: src/rawlogs
   url: git@github.com:AndreaCensi/rawlogs.git
